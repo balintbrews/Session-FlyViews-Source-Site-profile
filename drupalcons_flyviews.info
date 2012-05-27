@@ -1,0 +1,14 @@
+name = DrupalCons FlyViews
+description = Example installation profile that provides information about DrupalCons with a REST server out of the box.
+core = 7.x
+theme = bartik
+
+; Core
+dependencies[] = menu
+dependencies[] = dblog
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = taxonomy
+
+; Contrib
+
