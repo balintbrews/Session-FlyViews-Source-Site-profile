@@ -1,7 +1,7 @@
 <?php
 /**
  * @file source_flyviews.install
- * Installation file for the #FlyViews Source installation profile.
+ * Installation file for the FlyViews Source installation profile.
  */
 
 /**

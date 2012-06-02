@@ -1,4 +1,4 @@
-name = #FlyViews Source
+name = FlyViews Source
 description = Provides demo content through a REST server.
 core = 7.x
 theme = bartik
