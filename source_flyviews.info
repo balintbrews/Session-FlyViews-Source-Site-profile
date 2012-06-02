@@ -10,5 +10,6 @@ dependencies[] = help
 dependencies[] = menu
 dependencies[] = taxonomy
 
-; Contrib
+; Contrib modules
+dependencies[] = admin_menu
 
