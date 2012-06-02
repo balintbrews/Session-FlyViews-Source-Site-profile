@@ -1,13 +1,13 @@
 <?php
 /**
- * @file drupalcons_flyviews.install
- * Installation file for the DrupalCon FlyViews installation profile.
+ * @file source_flyviews.install
+ * Installation file for the #FlyViews Source installation profile.
  */
 
 /**
  * Implements hook_install().
  */
-function drupalcons_flyviews_install() {
+function source_flyviews_install() {
   // Use seven as our admin theme.
   theme_enable(array('seven'));
   $variables = array(

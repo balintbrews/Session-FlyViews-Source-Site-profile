@@ -1,5 +1,5 @@
-name = DrupalCons FlyViews
-description = Example installation profile that provides information about DrupalCons with a REST server out of the box.
+name = #FlyViews Source
+description = Provides demo content through a REST server.
 core = 7.x
 theme = bartik
 
