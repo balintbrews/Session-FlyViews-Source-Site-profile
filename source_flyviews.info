@@ -6,7 +6,9 @@ theme = bartik
 ; Core
 dependencies[] = dblog
 dependencies[] = field_ui
+dependencies[] = list
 dependencies[] = menu
+dependencies[] = options
 
 ; Contrib modules
 dependencies[] = admin_menu
