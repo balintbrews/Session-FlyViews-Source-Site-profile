@@ -4,10 +4,13 @@ core = 7.x
 theme = bartik
 
 ; Core
+dependencies[] = block
 dependencies[] = dblog
 dependencies[] = field_ui
+dependencies[] = image
 dependencies[] = list
 dependencies[] = menu
+dependencies[] = number
 dependencies[] = options
 
 ; Contrib modules
@@ -15,6 +18,9 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = ctools
 dependencies[] = devel
+dependencies[] = deploy
+dependencies[] = deploy_ui
+dependencies[] = diff
 dependencies[] = features
 dependencies[] = services
 dependencies[] = strongarm
