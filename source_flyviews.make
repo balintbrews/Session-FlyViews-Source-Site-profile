@@ -47,6 +47,10 @@ projects[services][download][url] = http://git.drupal.org/project/services.git
 projects[services][download][revision] = 250482e8e1ee9da63b30757b9ff47c448b59ceef
 projects[services][subdir] = contrib
 
+; Strongarm
+projects[strongarm][version] = 2.0-rc1
+projects[strongarm][subdir] = contrib
+
 ; Universally Unique IDentifier
 projects[uuid][type] = module
 projects[uuid][download][type] = git
