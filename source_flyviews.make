@@ -25,6 +25,13 @@ projects[deploy][subdir] = contrib
 projects[devel][version] = 1.2
 projects[devel][subdir] = contrib
 
+; Entity Dependency API
+projects[entity_dependency][type] = module
+projects[entity_dependency][download][type] = git
+projects[entity_dependency][download][url] = http://git.drupal.org/project/entity_dependency.git
+projects[entity_dependency][download][revision] = 7ca711a5149083ca2aa3b6ada9d35cd5abc6c99a
+projects[entity_dependency][subdir] = contrib
+
 ; Features
 projects[features][version] = 1.0-rc2
 projects[features][subdir] = contrib
