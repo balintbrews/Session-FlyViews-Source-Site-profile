@@ -36,6 +36,10 @@ projects[entity_dependency][subdir] = contrib
 projects[features][version] = 1.0-rc2
 projects[features][subdir] = contrib
 
+; Libraries API
+projects[libraries][version] = 1.0
+projects[libraries][subdir] = contrib
+
 ; Services
 projects[services][type] = module
 projects[services][download][type] = git
