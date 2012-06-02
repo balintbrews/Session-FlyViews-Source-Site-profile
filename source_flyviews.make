@@ -10,9 +10,16 @@ core = 7.x
 projects[admin_menu][version] = 3.0-rc3
 projects[admin_menu][subdir] = contrib
 
-CTools
+; CTools
 projects[ctools][version] = 1.0
 projects[ctools][subdir] = contrib
+
+; Deployment
+projects[deploy][type] = module
+projects[deploy][download][type] = git
+projects[deploy][download][url] = http://git.drupal.org/project/deploy.git
+projects[deploy][download][revision] = 0e88d6365d79e5500c17cab91056c247bc69f493
+projects[deploy][subdir] = contrib
 
 ; Devel
 projects[devel][version] = 1.2
@@ -28,6 +35,13 @@ projects[services][download][type] = git
 projects[services][download][url] = http://git.drupal.org/project/services.git
 projects[services][download][revision] = 250482e8e1ee9da63b30757b9ff47c448b59ceef
 projects[services][subdir] = contrib
+
+; Universally Unique IDentifier
+projects[uuid][type] = module
+projects[uuid][download][type] = git
+projects[uuid][download][url] = http://git.drupal.org/project/uuid.git
+projects[uuid][download][revision] = bf065276e6549c4318a8184d5cc11a625a7d8f4c
+projects[uuid][subdir] = contrib
 
 ; Views
 projects[views][version] = 3.3

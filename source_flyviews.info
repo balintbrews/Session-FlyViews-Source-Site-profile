@@ -4,11 +4,9 @@ core = 7.x
 theme = bartik
 
 ; Core
-dependencies[] = menu
 dependencies[] = dblog
-dependencies[] = help
+dependencies[] = field_ui
 dependencies[] = menu
-dependencies[] = taxonomy
 
 ; Contrib modules
 dependencies[] = admin_menu
@@ -18,6 +16,7 @@ dependencies[] = devel
 dependencies[] = features
 dependencies[] = services
 dependencies[] = rest_server
+dependencies[] = uuid
 dependencies[] = views
 dependencies[] = views_ui
 
