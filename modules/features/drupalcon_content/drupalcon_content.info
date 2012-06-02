@@ -4,5 +4,7 @@ core = 7.x
 package = FlyViews Source
 features[features_api][] = api:1
 features[uuid_entities][] = drupalcons
+dependencies[] = drupalcons_content_type
 dependencies[] = uuid
 dependencies[] = entity
+
