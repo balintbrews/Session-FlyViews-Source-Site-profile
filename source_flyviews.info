@@ -17,6 +17,7 @@ dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = features
 dependencies[] = services
+dependencies[] = strongarm
 dependencies[] = rest_server
 dependencies[] = uuid
 dependencies[] = views
