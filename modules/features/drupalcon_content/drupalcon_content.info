@@ -1,0 +1,6 @@
+name = DrupalCon Content
+description = Exported DrupalCon nodes for providing content out of the box.
+core = 7.x
+package = FlyViews Source
+features[features_api][] = api:1
+features[uuid_entities][] = drupalcons
