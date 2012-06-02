@@ -21,6 +21,7 @@ dependencies[] = devel
 dependencies[] = deploy
 dependencies[] = deploy_ui
 dependencies[] = diff
+dependencies[] = entity
 dependencies[] = features
 dependencies[] = services
 dependencies[] = strongarm

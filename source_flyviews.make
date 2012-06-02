@@ -29,6 +29,10 @@ projects[devel][subdir] = contrib
 projects[diff][version] = 2.0
 projects[diff][subdir] = contrib
 
+; Entity API
+projects[entity][version] = 1.0-rc3
+projects[entity][subdir] = contrib
+
 ; Entity Dependency API
 projects[entity_dependency][type] = module
 projects[entity_dependency][download][type] = git
