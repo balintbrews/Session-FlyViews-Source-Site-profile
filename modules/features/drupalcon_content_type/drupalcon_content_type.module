@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DrupalCon content type feature.
+ */
+
+include_once 'drupalcon_content_type.features.inc';
