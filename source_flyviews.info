@@ -31,4 +31,5 @@ dependencies[] = views_ui
 
 ; Features
 dependencies[] = drupalcon_content_type
+dependencies[] = drupalcon_content
 
