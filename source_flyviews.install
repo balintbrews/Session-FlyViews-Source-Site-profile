@@ -13,5 +13,8 @@ function source_flyviews_install() {
   variable_set('theme_default', 'seven');
   // Set the site frontpage.
   variable_set('site_frontpage', 'drupalcons');
+
+  // Do not show the author and date information for drupalcon nodes.
+  variable_set('node_submitted_drupalcon', FALSE);
 }
 
