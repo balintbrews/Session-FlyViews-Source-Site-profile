@@ -70,3 +70,10 @@ projects[uuid][subdir] = contrib
 projects[views][version] = 3.3
 projects[views][subdir] = contrib
 
+; Views Datasource
+projects[views_datasource][type] = module
+projects[views_datasource][download][type] = git
+projects[views_datasource][download][url] = http://git.drupal.org/project/views_datasource.git
+projects[views_datasource][download][revision] = 6887fc8e26474bf36c7357118486f0a0835f3d44
+projects[views_datasource][subdir] = contrib
+

@@ -28,6 +28,7 @@ dependencies[] = strongarm
 dependencies[] = rest_server
 dependencies[] = uuid
 dependencies[] = views
+dependencies[] = views_datasource
 dependencies[] = views_ui
 
 ; Features
