@@ -24,4 +24,5 @@ features[field][] = node-drupalcon-field_photo
 features[field][] = node-drupalcon-field_photo_credit
 features[field][] = node-drupalcon-field_year
 features[node][] = drupalcon
+features[variable][] = site_frontpage
 features[views_view][] = drupalcons
