@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * drupalcon_content_type.strongarm.inc
+ * general_configuration.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function drupalcon_content_type_strongarm() {
+function general_configuration_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

@@ -11,8 +11,7 @@ function source_flyviews_install() {
   // Use seven as our admin theme.
   theme_enable(array('seven'));
   $variables = array(
-    'admin_theme' => 'seven',
-    'node_admin_theme' => 1,
+    'theme_default' => 'seven',
   );
   foreach ($variables as $key => $variable) {
     variable_set($key, $variable);
