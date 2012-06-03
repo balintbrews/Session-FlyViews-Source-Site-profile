@@ -1,0 +1,9 @@
+name = DrupalCon REST Server
+description = REST server that allows retrieving information about DrupalCons.
+core = 7.x
+package = FlyViews Source
+dependencies[] = ctools
+dependencies[] = services
+features[ctools][] = services:services:3
+features[features_api][] = api:1
+features[services_endpoint][] = drupalcons_api

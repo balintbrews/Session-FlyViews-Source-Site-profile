@@ -33,5 +33,6 @@ dependencies[] = views_ui
 ; Features
 dependencies[] = drupalcon_content_type
 dependencies[] = drupalcon_content
+dependencies[] = drupalcon_rest_server
 dependencies[] = general_configuration
 
