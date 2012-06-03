@@ -9,7 +9,6 @@ dependencies[] = image
 dependencies[] = list
 dependencies[] = number
 dependencies[] = options
-dependencies[] = strongarm
 dependencies[] = views
 features[ctools][] = deploy:deploy_plans:1
 features[ctools][] = views:views_default:3.0
@@ -24,3 +23,4 @@ features[field][] = node-drupalcon-field_photo_credit
 features[field][] = node-drupalcon-field_year
 features[node][] = drupalcon
 features[views_view][] = drupalcons
+

@@ -8,13 +8,10 @@
  * Implements hook_install().
  */
 function source_flyviews_install() {
-  // Use seven as our admin theme.
   theme_enable(array('seven'));
-  $variables = array(
-    'theme_default' => 'seven',
-  );
-  foreach ($variables as $key => $variable) {
-    variable_set($key, $variable);
-  }
+  // Set Seven as default theme.
+  variable_set('theme_default', 'seven');
+  // Set the site frontpage.
+  variable_set('site_frontpage', 'drupalcons');
 }
 
