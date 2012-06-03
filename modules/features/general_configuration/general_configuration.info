@@ -1,0 +1,10 @@
+name = General Configuration
+description = General site configuration.
+core = 7.x
+package = FlyViews Source
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = site_frontpage
+features[variable][] = theme_default
