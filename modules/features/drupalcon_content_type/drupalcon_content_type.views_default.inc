@@ -111,6 +111,12 @@ function drupalcon_content_type_views_default_views() {
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page_1');
   $handler->display->display_options['path'] = 'drupalcons';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'Home';
+  $handler->display->display_options['menu']['description'] = 'Listing DrupalCons';
+  $handler->display->display_options['menu']['weight'] = '-50';
+  $handler->display->display_options['menu']['name'] = 'main-menu';
+  $handler->display->display_options['menu']['context'] = 0;
   $export['drupalcons'] = $view;
 
   return $export;
