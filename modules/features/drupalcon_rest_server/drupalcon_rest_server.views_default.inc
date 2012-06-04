@@ -44,9 +44,9 @@ function drupalcon_rest_server_views_default_views() {
   $handler->display->display_options['fields']['nid']['id'] = 'nid';
   $handler->display->display_options['fields']['nid']['table'] = 'node';
   $handler->display->display_options['fields']['nid']['field'] = 'nid';
-  $handler->display->display_options['fields']['nid']['label'] = 'url';
+  $handler->display->display_options['fields']['nid']['label'] = 'id';
   $handler->display->display_options['fields']['nid']['alter']['alter_text'] = 1;
-  $handler->display->display_options['fields']['nid']['alter']['text'] = 'http://sourcepoint-flyviews.loc/api/drupalcon/[nid]';
+  $handler->display->display_options['fields']['nid']['alter']['text'] = '[nid]';
   $handler->display->display_options['fields']['nid']['alter']['make_link'] = 0;
   $handler->display->display_options['fields']['nid']['alter']['absolute'] = 0;
   $handler->display->display_options['fields']['nid']['alter']['external'] = 0;
