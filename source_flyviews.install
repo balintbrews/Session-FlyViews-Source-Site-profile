@@ -9,8 +9,8 @@
  */
 function source_flyviews_install() {
   theme_enable(array('seven'));
-  // Set Seven as default theme.
-  variable_set('theme_default', 'seven');
+  // Set Seven as the admin theme.
+  variable_set('admin_theme', 'seven');
   // Set the site frontpage.
   variable_set('site_frontpage', 'drupalcons');
 
