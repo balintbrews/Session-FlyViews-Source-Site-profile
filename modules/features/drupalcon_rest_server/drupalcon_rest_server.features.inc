@@ -5,11 +5,8 @@
  */
 
 /**
- * Implements hook_ctools_plugin_api().
+ * Implements hook_views_api().
  */
-function drupalcon_rest_server_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
-  if ($module == "services" && $api == "services") {
-    return array("version" => "3");
-  }
+function drupalcon_rest_server_views_api() {
+  return array("version" => "3.0");
 }
