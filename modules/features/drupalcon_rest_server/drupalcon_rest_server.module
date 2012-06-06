@@ -6,3 +6,49 @@
 
 include_once 'drupalcon_rest_server.features.inc';
 
+/**
+ * Implements hook_views_pre_build().
+ *  - Removes the unnecessary parts from the API request URL, and displays it to the user.
+ */
+function drupalcon_rest_server_views_pre_build(&$view) {
+  if ($view->name == 'drupalcon_api' && $view->current_display == 'page_1') {
+    $query = $_GET;
+    unset($query['q']);
+
+    // The only sorting option is by year, so remove that part.
+    unset($query['sort_by']);
+
+    // Remove the unnecessary values based on the chosen operator.
+    if (isset($query['attendees_op']) && !in_array($query['attendees_op'], array('between', 'not between'))) {
+      unset($query['attendees']['min']);
+      unset($query['attendees']['max']);
+    }
+    else {
+      unset($query['attendees']['value']);
+    }
+
+    // If there is no value specified for the attendees argument at all, remove the empty arrays.
+    if (isset($query['attendees'])) {
+      $empty = TRUE;
+      foreach ($query['attendees'] as $value) {
+        if (!empty($value)) {
+          $empty = FALSE;
+        }
+      }
+      if ($empty) {
+        unset($query['attendees']);
+        unset($query['attendees_op']);
+      }
+    }
+
+    $url = urldecode(url('api/drupalcon', array('query' => $query, 'absolute' => TRUE)));
+    $message = array(
+      'element' => array(
+        '#tag' => 'strong',
+        '#value' => t('API URL:'),
+        '#value_suffix' => '<br />',
+      ),
+    );
+    drupal_set_message(theme('html_tag', $message) . $url);
+  }
+}
