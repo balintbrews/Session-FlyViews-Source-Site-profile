@@ -333,10 +333,10 @@ function drupalcon_rest_server_views_default_views() {
   $handler->display->display_options['filters']['field_attendees_value']['id'] = 'field_attendees_value';
   $handler->display->display_options['filters']['field_attendees_value']['table'] = 'field_data_field_attendees';
   $handler->display->display_options['filters']['field_attendees_value']['field'] = 'field_attendees_value';
+  $handler->display->display_options['filters']['field_attendees_value']['operator'] = 'between';
   $handler->display->display_options['filters']['field_attendees_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_attendees_value']['expose']['operator_id'] = 'attendees_op';
   $handler->display->display_options['filters']['field_attendees_value']['expose']['label'] = 'Attendees';
-  $handler->display->display_options['filters']['field_attendees_value']['expose']['use_operator'] = 1;
   $handler->display->display_options['filters']['field_attendees_value']['expose']['operator'] = 'field_attendees_value_op';
   $handler->display->display_options['filters']['field_attendees_value']['expose']['identifier'] = 'attendees';
   $handler->display->display_options['filters']['field_attendees_value']['expose']['multiple'] = FALSE;
