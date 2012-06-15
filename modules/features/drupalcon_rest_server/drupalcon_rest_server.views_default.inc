@@ -185,8 +185,8 @@ function drupalcon_rest_server_views_default_views() {
   $handler->display->display_options['fields']['field_attendees']['empty_zero'] = 0;
   $handler->display->display_options['fields']['field_attendees']['hide_alter_empty'] = 1;
   $handler->display->display_options['fields']['field_attendees']['settings'] = array(
-    'thousand_separator' => ' ',
-    'prefix_suffix' => 1,
+    'thousand_separator' => '',
+    'prefix_suffix' => 0,
   );
   $handler->display->display_options['fields']['field_attendees']['field_api_classes'] = 0;
   /* Field: Content: About the city */
