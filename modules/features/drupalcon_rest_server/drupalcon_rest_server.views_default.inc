@@ -238,7 +238,7 @@ function drupalcon_rest_server_views_default_views() {
   $handler->display->display_options['fields']['field_photo']['hide_alter_empty'] = 1;
   $handler->display->display_options['fields']['field_photo']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_photo']['settings'] = array(
-    'image_style' => 'thumbnail',
+    'image_style' => 'large',
     'image_link' => '',
   );
   $handler->display->display_options['fields']['field_photo']['field_api_classes'] = 0;
